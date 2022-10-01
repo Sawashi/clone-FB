@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="cloneFB/home" element={<Homepage />} default />
-        <Route path="*" element={<Navigate to="cloneFB/home" replace />} />
+        <Route path="clone-FB/home" element={<Homepage />} default />
+        <Route path="*" element={<Navigate to="clone-FB/home" replace />} />
       </Routes>
     </>
   );
